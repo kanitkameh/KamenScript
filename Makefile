@@ -310,6 +310,33 @@ tests/EqualityCommandTest.cpp.s:
 	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/EqualityCommandTest.cpp.s
 .PHONY : tests/EqualityCommandTest.cpp.s
 
+tests/PlusCommandTest.o: tests/PlusCommandTest.cpp.o
+
+.PHONY : tests/PlusCommandTest.o
+
+# target to build an object file
+tests/PlusCommandTest.cpp.o:
+	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/PlusCommandTest.cpp.o
+.PHONY : tests/PlusCommandTest.cpp.o
+
+tests/PlusCommandTest.i: tests/PlusCommandTest.cpp.i
+
+.PHONY : tests/PlusCommandTest.i
+
+# target to preprocess a source file
+tests/PlusCommandTest.cpp.i:
+	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/PlusCommandTest.cpp.i
+.PHONY : tests/PlusCommandTest.cpp.i
+
+tests/PlusCommandTest.s: tests/PlusCommandTest.cpp.s
+
+.PHONY : tests/PlusCommandTest.s
+
+# target to generate assembly for a file
+tests/PlusCommandTest.cpp.s:
+	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/PlusCommandTest.cpp.s
+.PHONY : tests/PlusCommandTest.cpp.s
+
 tests/main.o: tests/main.cpp.o
 
 .PHONY : tests/main.o
@@ -365,6 +392,9 @@ help:
 	@echo "... tests/EqualityCommandTest.o"
 	@echo "... tests/EqualityCommandTest.i"
 	@echo "... tests/EqualityCommandTest.s"
+	@echo "... tests/PlusCommandTest.o"
+	@echo "... tests/PlusCommandTest.i"
+	@echo "... tests/PlusCommandTest.s"
 	@echo "... tests/main.o"
 	@echo "... tests/main.i"
 	@echo "... tests/main.s"

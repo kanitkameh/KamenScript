@@ -41,27 +41,27 @@
 },
 {
   "directory": "/home/kanitkameh/Documents/Parser",
-  "command": "/usr/bin/c++   -I/home/kanitkameh/Documents/Parser/include -I/usr/include/gmock    -o CMakeFiles/ProjectName.dir/src/EqualityCommand.cpp.o -c /home/kanitkameh/Documents/Parser/src/EqualityCommand.cpp",
+  "command": "/usr/bin/c++   -I/home/kanitkameh/Documents/Parser/include -I/usr/include/gmock    -o CMakeFiles/KamenScript.dir/src/EqualityCommand.cpp.o -c /home/kanitkameh/Documents/Parser/src/EqualityCommand.cpp",
   "file": "/home/kanitkameh/Documents/Parser/src/EqualityCommand.cpp"
 },
 {
   "directory": "/home/kanitkameh/Documents/Parser",
-  "command": "/usr/bin/c++   -I/home/kanitkameh/Documents/Parser/include -I/usr/include/gmock    -o CMakeFiles/ProjectName.dir/src/IfCommand.cpp.o -c /home/kanitkameh/Documents/Parser/src/IfCommand.cpp",
+  "command": "/usr/bin/c++   -I/home/kanitkameh/Documents/Parser/include -I/usr/include/gmock    -o CMakeFiles/KamenScript.dir/src/IfCommand.cpp.o -c /home/kanitkameh/Documents/Parser/src/IfCommand.cpp",
   "file": "/home/kanitkameh/Documents/Parser/src/IfCommand.cpp"
 },
 {
   "directory": "/home/kanitkameh/Documents/Parser",
-  "command": "/usr/bin/c++   -I/home/kanitkameh/Documents/Parser/include -I/usr/include/gmock    -o CMakeFiles/ProjectName.dir/src/PlusCommand.cpp.o -c /home/kanitkameh/Documents/Parser/src/PlusCommand.cpp",
+  "command": "/usr/bin/c++   -I/home/kanitkameh/Documents/Parser/include -I/usr/include/gmock    -o CMakeFiles/KamenScript.dir/src/PlusCommand.cpp.o -c /home/kanitkameh/Documents/Parser/src/PlusCommand.cpp",
   "file": "/home/kanitkameh/Documents/Parser/src/PlusCommand.cpp"
 },
 {
   "directory": "/home/kanitkameh/Documents/Parser",
-  "command": "/usr/bin/c++   -I/home/kanitkameh/Documents/Parser/include -I/usr/include/gmock    -o CMakeFiles/ProjectName.dir/src/main.cpp.o -c /home/kanitkameh/Documents/Parser/src/main.cpp",
+  "command": "/usr/bin/c++   -I/home/kanitkameh/Documents/Parser/include -I/usr/include/gmock    -o CMakeFiles/KamenScript.dir/src/main.cpp.o -c /home/kanitkameh/Documents/Parser/src/main.cpp",
   "file": "/home/kanitkameh/Documents/Parser/src/main.cpp"
 },
 {
   "directory": "/home/kanitkameh/Documents/Parser",
-  "command": "/usr/bin/c++   -I/home/kanitkameh/Documents/Parser/include -I/usr/include/gmock    -o CMakeFiles/ProjectName.dir/src/utils.cpp.o -c /home/kanitkameh/Documents/Parser/src/utils.cpp",
+  "command": "/usr/bin/c++   -I/home/kanitkameh/Documents/Parser/include -I/usr/include/gmock    -o CMakeFiles/KamenScript.dir/src/utils.cpp.o -c /home/kanitkameh/Documents/Parser/src/utils.cpp",
   "file": "/home/kanitkameh/Documents/Parser/src/utils.cpp"
 }
 ]

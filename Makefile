@@ -124,17 +124,17 @@ runTests/fast:
 .PHONY : runTests/fast
 
 #=============================================================================
-# Target rules for targets named ProjectName
+# Target rules for targets named KamenScript
 
 # Build rule for target.
-ProjectName: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ProjectName
-.PHONY : ProjectName
+KamenScript: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 KamenScript
+.PHONY : KamenScript
 
 # fast build rule for target.
-ProjectName/fast:
-	$(MAKE) -f CMakeFiles/ProjectName.dir/build.make CMakeFiles/ProjectName.dir/build
-.PHONY : ProjectName/fast
+KamenScript/fast:
+	$(MAKE) -f CMakeFiles/KamenScript.dir/build.make CMakeFiles/KamenScript.dir/build
+.PHONY : KamenScript/fast
 
 src/EqualityCommand.o: src/EqualityCommand.cpp.o
 
@@ -143,7 +143,7 @@ src/EqualityCommand.o: src/EqualityCommand.cpp.o
 # target to build an object file
 src/EqualityCommand.cpp.o:
 	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/src/EqualityCommand.cpp.o
-	$(MAKE) -f CMakeFiles/ProjectName.dir/build.make CMakeFiles/ProjectName.dir/src/EqualityCommand.cpp.o
+	$(MAKE) -f CMakeFiles/KamenScript.dir/build.make CMakeFiles/KamenScript.dir/src/EqualityCommand.cpp.o
 .PHONY : src/EqualityCommand.cpp.o
 
 src/EqualityCommand.i: src/EqualityCommand.cpp.i
@@ -153,7 +153,7 @@ src/EqualityCommand.i: src/EqualityCommand.cpp.i
 # target to preprocess a source file
 src/EqualityCommand.cpp.i:
 	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/src/EqualityCommand.cpp.i
-	$(MAKE) -f CMakeFiles/ProjectName.dir/build.make CMakeFiles/ProjectName.dir/src/EqualityCommand.cpp.i
+	$(MAKE) -f CMakeFiles/KamenScript.dir/build.make CMakeFiles/KamenScript.dir/src/EqualityCommand.cpp.i
 .PHONY : src/EqualityCommand.cpp.i
 
 src/EqualityCommand.s: src/EqualityCommand.cpp.s
@@ -163,7 +163,7 @@ src/EqualityCommand.s: src/EqualityCommand.cpp.s
 # target to generate assembly for a file
 src/EqualityCommand.cpp.s:
 	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/src/EqualityCommand.cpp.s
-	$(MAKE) -f CMakeFiles/ProjectName.dir/build.make CMakeFiles/ProjectName.dir/src/EqualityCommand.cpp.s
+	$(MAKE) -f CMakeFiles/KamenScript.dir/build.make CMakeFiles/KamenScript.dir/src/EqualityCommand.cpp.s
 .PHONY : src/EqualityCommand.cpp.s
 
 src/IfCommand.o: src/IfCommand.cpp.o
@@ -173,7 +173,7 @@ src/IfCommand.o: src/IfCommand.cpp.o
 # target to build an object file
 src/IfCommand.cpp.o:
 	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/src/IfCommand.cpp.o
-	$(MAKE) -f CMakeFiles/ProjectName.dir/build.make CMakeFiles/ProjectName.dir/src/IfCommand.cpp.o
+	$(MAKE) -f CMakeFiles/KamenScript.dir/build.make CMakeFiles/KamenScript.dir/src/IfCommand.cpp.o
 .PHONY : src/IfCommand.cpp.o
 
 src/IfCommand.i: src/IfCommand.cpp.i
@@ -183,7 +183,7 @@ src/IfCommand.i: src/IfCommand.cpp.i
 # target to preprocess a source file
 src/IfCommand.cpp.i:
 	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/src/IfCommand.cpp.i
-	$(MAKE) -f CMakeFiles/ProjectName.dir/build.make CMakeFiles/ProjectName.dir/src/IfCommand.cpp.i
+	$(MAKE) -f CMakeFiles/KamenScript.dir/build.make CMakeFiles/KamenScript.dir/src/IfCommand.cpp.i
 .PHONY : src/IfCommand.cpp.i
 
 src/IfCommand.s: src/IfCommand.cpp.s
@@ -193,7 +193,7 @@ src/IfCommand.s: src/IfCommand.cpp.s
 # target to generate assembly for a file
 src/IfCommand.cpp.s:
 	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/src/IfCommand.cpp.s
-	$(MAKE) -f CMakeFiles/ProjectName.dir/build.make CMakeFiles/ProjectName.dir/src/IfCommand.cpp.s
+	$(MAKE) -f CMakeFiles/KamenScript.dir/build.make CMakeFiles/KamenScript.dir/src/IfCommand.cpp.s
 .PHONY : src/IfCommand.cpp.s
 
 src/PlusCommand.o: src/PlusCommand.cpp.o
@@ -203,7 +203,7 @@ src/PlusCommand.o: src/PlusCommand.cpp.o
 # target to build an object file
 src/PlusCommand.cpp.o:
 	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/src/PlusCommand.cpp.o
-	$(MAKE) -f CMakeFiles/ProjectName.dir/build.make CMakeFiles/ProjectName.dir/src/PlusCommand.cpp.o
+	$(MAKE) -f CMakeFiles/KamenScript.dir/build.make CMakeFiles/KamenScript.dir/src/PlusCommand.cpp.o
 .PHONY : src/PlusCommand.cpp.o
 
 src/PlusCommand.i: src/PlusCommand.cpp.i
@@ -213,7 +213,7 @@ src/PlusCommand.i: src/PlusCommand.cpp.i
 # target to preprocess a source file
 src/PlusCommand.cpp.i:
 	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/src/PlusCommand.cpp.i
-	$(MAKE) -f CMakeFiles/ProjectName.dir/build.make CMakeFiles/ProjectName.dir/src/PlusCommand.cpp.i
+	$(MAKE) -f CMakeFiles/KamenScript.dir/build.make CMakeFiles/KamenScript.dir/src/PlusCommand.cpp.i
 .PHONY : src/PlusCommand.cpp.i
 
 src/PlusCommand.s: src/PlusCommand.cpp.s
@@ -223,7 +223,7 @@ src/PlusCommand.s: src/PlusCommand.cpp.s
 # target to generate assembly for a file
 src/PlusCommand.cpp.s:
 	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/src/PlusCommand.cpp.s
-	$(MAKE) -f CMakeFiles/ProjectName.dir/build.make CMakeFiles/ProjectName.dir/src/PlusCommand.cpp.s
+	$(MAKE) -f CMakeFiles/KamenScript.dir/build.make CMakeFiles/KamenScript.dir/src/PlusCommand.cpp.s
 .PHONY : src/PlusCommand.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -232,7 +232,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/ProjectName.dir/build.make CMakeFiles/ProjectName.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/KamenScript.dir/build.make CMakeFiles/KamenScript.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -241,7 +241,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/ProjectName.dir/build.make CMakeFiles/ProjectName.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/KamenScript.dir/build.make CMakeFiles/KamenScript.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -250,7 +250,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/ProjectName.dir/build.make CMakeFiles/ProjectName.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/KamenScript.dir/build.make CMakeFiles/KamenScript.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/utils.o: src/utils.cpp.o
@@ -260,7 +260,7 @@ src/utils.o: src/utils.cpp.o
 # target to build an object file
 src/utils.cpp.o:
 	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/src/utils.cpp.o
-	$(MAKE) -f CMakeFiles/ProjectName.dir/build.make CMakeFiles/ProjectName.dir/src/utils.cpp.o
+	$(MAKE) -f CMakeFiles/KamenScript.dir/build.make CMakeFiles/KamenScript.dir/src/utils.cpp.o
 .PHONY : src/utils.cpp.o
 
 src/utils.i: src/utils.cpp.i
@@ -270,7 +270,7 @@ src/utils.i: src/utils.cpp.i
 # target to preprocess a source file
 src/utils.cpp.i:
 	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/src/utils.cpp.i
-	$(MAKE) -f CMakeFiles/ProjectName.dir/build.make CMakeFiles/ProjectName.dir/src/utils.cpp.i
+	$(MAKE) -f CMakeFiles/KamenScript.dir/build.make CMakeFiles/KamenScript.dir/src/utils.cpp.i
 .PHONY : src/utils.cpp.i
 
 src/utils.s: src/utils.cpp.s
@@ -280,7 +280,7 @@ src/utils.s: src/utils.cpp.s
 # target to generate assembly for a file
 src/utils.cpp.s:
 	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/src/utils.cpp.s
-	$(MAKE) -f CMakeFiles/ProjectName.dir/build.make CMakeFiles/ProjectName.dir/src/utils.cpp.s
+	$(MAKE) -f CMakeFiles/KamenScript.dir/build.make CMakeFiles/KamenScript.dir/src/utils.cpp.s
 .PHONY : src/utils.cpp.s
 
 tests/EqualityCommandTest.o: tests/EqualityCommandTest.cpp.o
@@ -400,7 +400,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... runTests"
-	@echo "... ProjectName"
+	@echo "... KamenScript"
 	@echo "... src/EqualityCommand.o"
 	@echo "... src/EqualityCommand.i"
 	@echo "... src/EqualityCommand.s"

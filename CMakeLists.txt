@@ -5,7 +5,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 #Exports compile commands for auto completion
 set( CMAKE_EXPORT_COMPILE_COMMANDS ON )
 
-project(ProjectName)
+project(KamenScript)
 
 #Setting path to gmock
 set(GMOCK_INCLUDE_DIRS /usr/include/gmock)
@@ -24,7 +24,7 @@ file(GLOB SOURCES "src/*.cpp")
  
 file(GLOB TESTS "tests/*.cpp")
 #Project executable
-add_executable(ProjectName ${SOURCES})
+add_executable(KamenScript ${SOURCES})
 
 #Removing the main so it doesn't collide with the main of the tests
 list(FILTER SOURCES EXCLUDE REGEX "src/main.cpp")

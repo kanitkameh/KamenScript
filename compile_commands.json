@@ -26,6 +26,11 @@
 },
 {
   "directory": "/home/kanitkameh/Documents/Parser",
+  "command": "/usr/bin/c++   -I/home/kanitkameh/Documents/Parser/include -I/usr/include/gmock    -o CMakeFiles/runTests.dir/tests/IfCommandTest.cpp.o -c /home/kanitkameh/Documents/Parser/tests/IfCommandTest.cpp",
+  "file": "/home/kanitkameh/Documents/Parser/tests/IfCommandTest.cpp"
+},
+{
+  "directory": "/home/kanitkameh/Documents/Parser",
   "command": "/usr/bin/c++   -I/home/kanitkameh/Documents/Parser/include -I/usr/include/gmock    -o CMakeFiles/runTests.dir/tests/PlusCommandTest.cpp.o -c /home/kanitkameh/Documents/Parser/tests/PlusCommandTest.cpp",
   "file": "/home/kanitkameh/Documents/Parser/tests/PlusCommandTest.cpp"
 },

@@ -21,6 +21,11 @@
 },
 {
   "directory": "/home/kanitkameh/Documents/Parser",
+  "command": "/usr/bin/c++   -I/home/kanitkameh/Documents/Parser/include -I/usr/include/gmock    -o CMakeFiles/runTests.dir/tests/EqualityCommandTest.cpp.o -c /home/kanitkameh/Documents/Parser/tests/EqualityCommandTest.cpp",
+  "file": "/home/kanitkameh/Documents/Parser/tests/EqualityCommandTest.cpp"
+},
+{
+  "directory": "/home/kanitkameh/Documents/Parser",
   "command": "/usr/bin/c++   -I/home/kanitkameh/Documents/Parser/include -I/usr/include/gmock    -o CMakeFiles/runTests.dir/tests/main.cpp.o -c /home/kanitkameh/Documents/Parser/tests/main.cpp",
   "file": "/home/kanitkameh/Documents/Parser/tests/main.cpp"
 },

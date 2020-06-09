@@ -283,6 +283,33 @@ src/utils.cpp.s:
 	$(MAKE) -f CMakeFiles/ProjectName.dir/build.make CMakeFiles/ProjectName.dir/src/utils.cpp.s
 .PHONY : src/utils.cpp.s
 
+tests/EqualityCommandTest.o: tests/EqualityCommandTest.cpp.o
+
+.PHONY : tests/EqualityCommandTest.o
+
+# target to build an object file
+tests/EqualityCommandTest.cpp.o:
+	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/EqualityCommandTest.cpp.o
+.PHONY : tests/EqualityCommandTest.cpp.o
+
+tests/EqualityCommandTest.i: tests/EqualityCommandTest.cpp.i
+
+.PHONY : tests/EqualityCommandTest.i
+
+# target to preprocess a source file
+tests/EqualityCommandTest.cpp.i:
+	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/EqualityCommandTest.cpp.i
+.PHONY : tests/EqualityCommandTest.cpp.i
+
+tests/EqualityCommandTest.s: tests/EqualityCommandTest.cpp.s
+
+.PHONY : tests/EqualityCommandTest.s
+
+# target to generate assembly for a file
+tests/EqualityCommandTest.cpp.s:
+	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/EqualityCommandTest.cpp.s
+.PHONY : tests/EqualityCommandTest.cpp.s
+
 tests/main.o: tests/main.cpp.o
 
 .PHONY : tests/main.o
@@ -335,6 +362,9 @@ help:
 	@echo "... src/utils.o"
 	@echo "... src/utils.i"
 	@echo "... src/utils.s"
+	@echo "... tests/EqualityCommandTest.o"
+	@echo "... tests/EqualityCommandTest.i"
+	@echo "... tests/EqualityCommandTest.s"
 	@echo "... tests/main.o"
 	@echo "... tests/main.i"
 	@echo "... tests/main.s"

@@ -1,0 +1,5 @@
+.clangd/
+CMakeCache.txt
+CMakeFiles/
+bin/
+obj/

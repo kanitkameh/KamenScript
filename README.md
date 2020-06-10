@@ -4,8 +4,6 @@ This is a simple programming language with a syntax close to LISP.
 
 ### How to execute KamenScript code 
 ```
-mkdir src
-mkdir include
 cmake .
 make .
 cd build/
